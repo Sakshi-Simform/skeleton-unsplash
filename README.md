@@ -7,7 +7,3 @@ Focus area to create this ui design is:-
 - Make ui responsive
 - Make ui interactive
 
-
-
-
-### This ui shows clone of unsplash landing page.
