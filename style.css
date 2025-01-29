@@ -2,15 +2,11 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-
-* {
     text-decoration: none;
     color: black;
 }
 
 /* navigation bar */
-
 #navbar {
     display: flex;
     justify-content: space-between;
@@ -41,13 +37,10 @@ input {
     line-height: 20px;
 }
 
-
-
 #head {
     margin: 30px;
     justify-content: space-evenly;
     display: flex;
-
 }
 
 #border {
