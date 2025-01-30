@@ -14,7 +14,7 @@
     align-items: center;
 }
 
-img {
+.left img {
     height: 3em;
     width: 3em;
     padding: 0;
@@ -39,7 +39,7 @@ input:focus{
     width: 800px;
     border-radius: 30px;
     position: relative;
-    margin-left: 5px;
+    margin-left: 15px;
     border-color: lightgray;
 }
 
