@@ -23,7 +23,6 @@
 
 input {
     border: none;
-    /* padding: 5px 10px; */
     line-height: 3px;
     margin-left: 1em;
 }
@@ -80,7 +79,6 @@ input::placeholder{
     height: 32px;
     padding: 0px 11px;
     background-color: #FFFFFF;
-    /* line-height: 30px; */
     color:#767676;
     border-radius: 3px;
     border: 1px solid  #767676 ;
