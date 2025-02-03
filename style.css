@@ -13,6 +13,7 @@
     justify-content: space-between;
     margin: 1rem;
     align-items: center;
+    min-width: 100vw;
 }
 
 .left img {
@@ -41,7 +42,7 @@ input::placeholder{
     display: flex;
     align-items: center;
     padding: 10px 10px;
-    width: 900px;
+    width: 800px;
     border-radius: 30px;
     position: relative;
     margin-left: 15px;
@@ -62,7 +63,7 @@ input::placeholder{
     display: flex;
     align-items: center;
     gap: 3em;
-    right: 7px;
+    right: 20px;
 }
 
 .right-submit {
@@ -85,7 +86,18 @@ input::placeholder{
     background: linear-gradient(to bottom, transparent 50%, rgba(10, 20, 30, .02) 100%);
     font-size: 14px;
     outline: none;
+    min-width: 30px;
+    left: 2px;
 }
+
+#right-tab{
+    width: 150px;
+}
+
+#right-index{
+    width: 50px;
+}
+
 
 button:hover {
     color: black;
@@ -96,3 +108,18 @@ button:hover {
     border: 1px gray solid;
     min-height: 2em;
 }
+
+@media (max-width:1650px){
+    .input-container{
+        width: 300px;
+    }
+    
+}
+
+@media  (max-width:780px){
+    .right{
+        display: none;
+    }
+    
+}
+
