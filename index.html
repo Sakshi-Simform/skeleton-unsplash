@@ -1,52 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ui</title>
-</head>
-<body>
-    <div id="navbar">
-        <div class="nav-logo">
-            <img src="logo.jpeg" alt="">
-            <div class="nav-search">
-                <i class="fa fa-search" aria-hidden="true"></i>
-                <input type="text" placeholder="Search photos and illustration">
-                <span class="right-input-logo">
-                            <svg class="Y2Svj PABRJ qI43S" width="24" height="24" viewBox="0 0 24 24" version="1.1"
-                                aria-hidden="false" style="flex-shrink: 0;">
-                                <desc lang="en-US">Visual search</desc>
-                                <path
-                                    d="M5 15H3v4c0 1.1.9 2 2 2h4v-2H5v-4ZM5 5h4V3H5c-1.1 0-2 
-                                    .9-2 2v4h2V5Zm14-2h-4v2h4v4h2V5c0-1.1-.9-2-2-2Zm0 16h-4v2h4c1.1 0 2-.9 2-2v-4h-2v4ZM12 
-                                    8c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4Zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2Z">
-                                </path>
-                            </svg>
-                        </span>
-            </div>
-        </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Uunsplash</title>
 
-        
-        
-        <div class="nav-items">
-            <ul>
-                <li> <a href="#" id="nav-items-link"><b>Explore</b></a></li>
-                <li><a href="#" id="nav-items-link">Advertise</a></li>
-                <li><a href="#" id="nav-items-link"><b>Get Unsplash+</b></a></li>
-                <!-- <li class="nav-items-border">
-                    
-                </li> -->
-                <li><a href="#" id="nav-login">Log in</a></li>
-                <li><button tabindex="0" id="submit-btn">Submit an image</button></li>
-                <li> <i class="fa fa-bars" aria-hidden="true"></i></li>
-            </ul>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <!-- Left: Logo -->
+            <div class="logo">
+                <img src="assets/icons/ulogo.png" alt="Unsplash Logo">
+            </div>
+
+            <!-- Center: Search Bar -->
+            <div class="search">
+                <i class="fa fa-search" aria-hidden="true" id="left-icon"></i>
+                <input type="text" placeholder="Search photos and illustration">
+                <span id="right-icon">
+                    <svg class="Y2Svj PABRJ qI43S" width="24" height="24" viewBox="0 0 24 24" version="1.1"
+                        aria-hidden="false" style="flex-shrink: 0;">
+                        <desc lang="en-US">Visual search</desc>
+                        <path
+                            d="M5 15H3v4c0 1.1.9 2 2 2h4v-2H5v-4ZM5 5h4V3H5c-1.1 0-2 
+                            .9-2 2v4h2V5Zm14-2h-4v2h4v4h2V5c0-1.1-.9-2-2-2Zm0 16h-4v2h4c1.1 0 2-.9 2-2v-4h-2v4ZM12 
+                            8c-2.2 0-4 1.8-4 4s1.8 4 4 4 4-1.8 4-4-1.8-4-4-4Zm0 6c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2Z">
+                        </path>
+                    </svg>
+                </span>
+            </div>
+
+            <!-- Right: Navigation & Buttons -->
+            <nav class="nav" style="height: 2rem;">
+                <a href="#" class="nav-link"><b>Explore</b></a>
+                <a href="#" class="nav-link">Advertise</a>
+                <a href="#" class="nav-link" id="nav-link-bold"><b>Get Unsplash+</b></a>
+                <a href="#" class="nav-link-right">Log in</a>
+                <button tabindex="0" class="nav-link-right" id="submit-btn">Submit an image</button>
+                <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+            </nav>
         </div>
-    </div>
+    </header>
 </body>
 </html>
