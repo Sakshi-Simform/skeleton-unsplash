@@ -140,12 +140,15 @@ input:focus {
 }
 
 /* media */
+
+/* Links about explore advertise & get unsplash disappers from ui at 900px and below that  */
 @media (max-width:900px) {
     .nav-link {
         display: none;
     }
 }
 
+/* Links about Login and submit button disappers from ui at 768px and below that  */ 
 @media (max-width:768px) {
     .nav-link-right {
         display: none;
