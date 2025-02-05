@@ -71,7 +71,11 @@ input:focus {
 .nav {
     display: flex;
     align-items: center;
-    gap: 2.5rem;
+    gap: 2rem;
+}
+
+.nav a:hover{
+    color: black;
 }
 
 .nav a {
@@ -94,6 +98,11 @@ input:focus {
 
 #login-link{
     margin-left: 1.5rem;
+    font-weight: 500;
+}
+
+#advertise-link{
+    font-weight: 500;
 }
 
 #nav-link-bold::after {
@@ -115,6 +124,7 @@ input:focus {
     border-radius: 5px;
     cursor: pointer;
     font-size: 14px;
+    font-weight: 500;
 }
 
 #submit-btn:hover {
