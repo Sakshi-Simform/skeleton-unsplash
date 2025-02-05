@@ -140,7 +140,6 @@ input:focus {
 }
 
 /* media */
-
 /* Links about explore advertise & get unsplash disappers from ui at 900px and below that  */
 @media (max-width:900px) {
     .nav-link {
