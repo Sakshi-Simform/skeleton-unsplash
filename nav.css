@@ -115,6 +115,13 @@ input:focus {
     margin-right: 1.5rem;
 }
 
+.menu-icon div{
+    height: 2px;
+    width: 17px;
+    background-color: #767676;
+    margin: 3px 0;
+}
+
 /* Submit Button */
 #submit-btn {
     background-color: rgba(211, 211, 211, 0.2);
