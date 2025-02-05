@@ -38,7 +38,7 @@
 
 .search input {
     width: 100%;
-    padding: 8px 28px;
+    padding: 8px 37px;
     border: 1px solid lightgray;
     border-radius: 25px;
     font-size: 14px;
@@ -53,15 +53,17 @@ input:focus {
     outline: none;
 }
 
-#right-icon {
+.svg{
     position: absolute;
-    right: 8px;
+    right: 10px;
     top: 8px;
+    height: 24px;
+    width: 24px;
 }
 
 #left-icon {
     position: absolute;
-    left: 8px;
+    left: 12px;
     top: 12px;
 }
 
@@ -69,7 +71,7 @@ input:focus {
 .nav {
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 2.5rem;
 }
 
 .nav a {
@@ -79,13 +81,15 @@ input:focus {
     transition: color 0.3s ease;
 }
 
-.nav a:hover {
-    color: black;
-}
-
-.nav-link-bold {
+#nav-link-bold {
     color: black;
     position: relative;
+    font-weight:300;
+    letter-spacing: 0.5px;
+}
+
+#link-explore{
+    letter-spacing: 0.5px;
 }
 
 #login-link{
