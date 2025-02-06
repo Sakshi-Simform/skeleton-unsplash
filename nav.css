@@ -3,12 +3,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", serif;
-    color: black;
 }
 
 /* Header Styling */
 .header {
-    position: sticky;
     top: 0;
     width: 100%;
 }
@@ -41,10 +39,9 @@
     padding: 8px 37px;
     border: 1px solid lightgray;
     border-radius: 25px;
-    font-size: 14px;
+    font-size: 0.875em;
     background-color: rgba(211, 211, 211, 0.2);
     align-items: center;
-    border: none;
     height: 2.5rem;
 }
 
@@ -81,7 +78,7 @@ input:focus {
 .nav a {
     text-decoration: none;
     color: #666;
-    font-size: 14px;
+    font-size: 0.875em;
     transition: color 0.3s ease;
 }
 
@@ -108,7 +105,8 @@ input:focus {
 #nav-link-bold::after {
     width: 1.5rem;
     height: 1.5rem;
-    border-left: 1px solid lightgray;
+    border-left: 1px solid  #767676;
+    ;
     content: "";
     position: absolute;
     margin-left: 1.5rem;
@@ -127,7 +125,7 @@ input:focus {
     background-color: rgba(211, 211, 211, 0.2);
     color: gray;
     padding: 6px 11px;
-    border: 1px solid gray;
+    border: 1px solid #767676;
     border-radius: 5px;
     cursor: pointer;
     font-size: 14px;
@@ -135,8 +133,8 @@ input:focus {
 }
 
 #submit-btn:hover {
-    border: 1px solid black;
-    color: black;
+    border: 1px solid #000000;
+    color: #000000;
 }
 
 /* media */
