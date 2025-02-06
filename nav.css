@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+/* Header Styling */
+.header {
+    top: 0;
+    width: 100%;
+}
+
+/* Flexbox Container */
+.container {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+/* Logo */
+.logo img {
+    height: 2em;
+    width: 2em;
+    margin-left: 0;
+}
+
+/* Search Bar */
+.search {
+    flex: 1;
+    margin: 0 20px;
+    position: relative;
+}
+
+.search input {
+    width: 100%;
+    padding: 8px 37px;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    font-size: 0.875em;
+    background-color: rgba(211, 211, 211, 0.2);
+    align-items: center;
+    height: 2.5rem;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+.svg{
+    position: absolute;
+    right: 10px;
+    top: 8px;
+    height: 24px;
+    width: 24px;
+}
+
+#left-icon {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav a:hover{
+    color: black;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #666;
+    font-size: 0.875em;
+    transition: color 0.3s ease;
+}
+
+#nav-link-bold {
+    color: black;
+    position: relative;
+    font-weight:300;
+    letter-spacing: 0.5px;
+}
+
+#link-explore{
+    letter-spacing: 0.5px;
+}
+
+#login-link{
+    margin-left: 1.5rem;
+    font-weight: 500;
+}
+
+#advertise-link{
+    font-weight: 500;
+}
+
+#nav-link-bold::after {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-left: 1px solid  #767676;
+    ;
+    content: "";
+    position: absolute;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.menu-icon div{
+    height: 2px;
+    width: 17px;
+    background-color: #767676;
+    margin: 3px 0;
+}
+
+/* Submit Button */
+#submit-btn {
+    background-color: rgba(211, 211, 211, 0.2);
+    color: gray;
+    padding: 6px 11px;
+    border: 1px solid #767676;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+#submit-btn:hover {
+    border: 1px solid #000000;
+    color: #000000;
+}
+
+/* media */
+/* Links about explore advertise & get unsplash disappers from ui at 900px and below that  */
+@media (max-width:900px) {
+    .nav-link {
+        display: none;
+    }
+}
+
+/* Links about Login and submit button disappers from ui at 768px and below that  */ 
+@media (max-width:768px) {
+    .nav-link-right {
+        display: none;
+    }
+}

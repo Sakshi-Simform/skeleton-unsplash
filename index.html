@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Unsplash Skeleton UI - This Ui represents landing page of unspalsh ui includes features to explore different pictures. ">
+    <meta name="keywords" content="Unsplash, UI, Skeleton, Design">
+    <meta name="author" content="Sakshi Shah">
+
+    <link rel="stylesheet" href="nav.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" href="assets/icons/mlogo.jpeg">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Unsplash</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <!-- Left: Logo -->
+            <div class="logo">
+                <img src="assets/icons/mlogo.jpeg" alt="Unsplash Logo">
+            </div>
+                 <!-- Center: Search Bar -->
+            <div class="search">
+                <i class="fa fa-search" aria-hidden="true" id="left-icon" style="color:#767676"></i>
+                <input type="text" placeholder="Search photos and illustration" aria-label="search-bar">
+                <svg class="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#767676">
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path
+                            d="M17.75 3C19.5449 3 21 4.45508 21 6.25V9.25C21 9.66421 20.6642 10 20.25 10C19.8358 10 19.5 9.66421 19.5 9.25V6.25C19.5 5.2835 18.7165 4.5 17.75 4.5L14.75 4.5C14.3358 4.5 14 4.16421 14 3.75C14 3.33579 14.3358 3 14.75 3H17.75Z"
+                            fill="#767676"></path>
+                        <path
+                            d="M6.25 3C4.45507 3 3 4.45507 3 6.25V9.25C3 9.66421 3.33579 10 3.75 10C4.16421 10 4.5 9.66421 4.5 9.25V6.25C4.5 5.2835 5.2835 4.5 6.25 4.5H9.25C9.66421 4.5 10 4.16421 10 3.75C10 3.33579 9.66421 3 9.25 3H6.25Z"
+                            fill="#767676"></path>
+                        <path
+                            d="M17.75 21C19.5449 21 21 19.5449 21 17.75V14.75C21 14.3358 20.6642 14 20.25 14C19.8358 14 19.5 14.3358 19.5 14.75V17.75C19.5 18.7165 18.7165 19.5 17.75 19.5H14.75C14.3358 19.5 14 19.8358 14 20.25C14 20.6642 14.3358 21 14.75 21H17.75Z"
+                            fill="#767676"></path>
+                        <path
+                            d="M3 17.75C3 19.5449 4.45507 21 6.25 21H9.25C9.66421 21 10 20.6642 10 20.25C10 19.8358 9.66421 19.5 9.25 19.5H6.25C5.2835 19.5 4.5 18.7165 4.5 17.75L4.5 14.75C4.5 14.3358 4.16421 14 3.75 14C3.33579 14 3 14.3358 3 14.75L3 17.75Z"
+                            fill="#767676"></path>
+                        <path
+                            d="M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15ZM12 13.5C11.1716 13.5 10.5 12.8284 10.5 12C10.5 11.1716 11.1716 10.5 12 10.5C12.8284 10.5 13.5 11.1716 13.5 12C13.5 12.8284 12.8284 13.5 12 13.5Z"
+                            fill="#767676"></path>
+                        <path
+                            d="M7.5 8.5C8.05229 8.5 8.5 8.05229 8.5 7.5C8.5 6.94772 8.05229 6.5 7.5 6.5C6.94772 6.5 6.5 6.94772 6.5 7.5C6.5 8.05229 6.94772 8.5 7.5 8.5Z"
+                            fill="#767676"></path>
+                    </g>
+                </svg>
+            </div>
+            <!-- Right: Navigation & Buttons -->
+            <nav class="nav" style="height: 2rem;">
+                <a href="#" class="nav-link" role="link" id="link-explore">Explore</a>
+                <a href="#" class="nav-link" role="link" id="advertise-link">Advertise</a>
+                <a href="#" class="nav-link" role="link" id="nav-link-bold"><b>Get Unsplash+</b></a>
+                <a href="#" class="nav-link-right" id="login-link" role="link">Log in</a>
+                <button tabindex="0" class="nav-link-right" id="submit-btn">Submit an image</button>
+                 <a href="#" role="icon" aria-label="search-bar-icon">
+                    <div class="menu-icon">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                     </div>
+                 </a>
+            </nav>
+        </div>
+    </header>
+</body>
+</html>
