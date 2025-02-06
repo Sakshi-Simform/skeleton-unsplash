@@ -56,6 +56,16 @@
     color: #767676;
 }
 
+#link-explore{
+    color: #000000;
+    font-weight: bold;
+}
+
+#nav-link-bold{
+    color: #000000;
+    font-weight: bold;
+}
+
 /* grid view */
 .grid-content {
     display: grid;
