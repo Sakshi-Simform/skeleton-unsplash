@@ -31,7 +31,7 @@
             <div class="search">
                 <i class="fa fa-search" aria-hidden="true" id="left-icon" style="color:#767676"></i>
                 <input type="text" placeholder="Search photos and illustration" aria-label="search-bar">
-                <svg class="svg" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#767676">
+                <svg class="svg" role="none"  viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#767676">
                     <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                     <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
                     <g id="SVGRepo_iconCarrier">
@@ -58,12 +58,12 @@
             </div>
             <!-- Right: Navigation & Buttons -->
             <nav class="nav" style="height: 2rem;">
-                <a href="#" class="nav-link" role="link" id="link-explore">Explore</a>
-                <a href="#" class="nav-link" role="link" id="advertise-link">Advertise</a>
-                <a href="#" class="nav-link" role="link" id="nav-link-bold">Get Unsplash+</a>
-                <a href="#" class="nav-link-right" id="login-link" role="link">Log in</a>
-                <button tabindex="0" class="nav-link-right" id="submit-btn">Submit an image</button>
-                <a href="#" role="icon" aria-label="search-bar-icon">
+                <a href="#" class="nav-link" role="button" id="link-explore">Explore</a>
+                <a href="#" class="nav-link" role="button" id="advertise-link">Advertise</a>
+                <a href="#" class="nav-link" role="button" id="nav-link-bold">Get Unsplash+</a>
+                <a href="#" class="nav-link-right" id="login-link" role="button">Log in</a>
+                <button tabindex="0" class="nav-link-right" id="submit-btn" role="button">Submit an image</button>
+                <a href="#" role="button" aria-label="search-bar-icon">
                     <div class="menu-icon">
                         <div></div>
                         <div></div>
@@ -76,11 +76,11 @@
     <!-- main-section -->
     <div id="main">
         <div class="main-head">
-            <div class="main-container">
+            <div class="main-container" role="main">
                 <div class="main-content">
-                    <a href="#" class="main-left">Unsplash</a>
+                    <a href="#" class="main-left" role="button">Unsplash</a>
                     >
-                    <a href="#" class="main-left" id="left-link">Explore</a>
+                    <a href="#" class="main-left" id="left-link" role="button">Explore</a>
                 </div>
                 <div class="main-para">
                     <h1>Explore Unsplash photos</h1>
@@ -89,7 +89,7 @@
                     <p>
                         Unsplash has millions of free high-quality images. All images are free to <br>
                         download and use under the
-                        <a href="#">Unsplash License</a>
+                        <a href="#" role="button">Unsplash License</a>
                     </p>
                 </div>
             </div>
@@ -101,7 +101,7 @@
             </div>
             <div class="grid-content">
                 <div>
-                    <img src="assets/icons/royalty.jpeg">
+                    <img src="assets/icons/royalty.jpeg" alt="Royalty image">
                     <div>
                         <div class="name">
                             <h3>Royalty Free Images</h3>
@@ -110,7 +110,7 @@
                     </div>
                 </div>
                 <div>
-                    <img src="assets/icons/public.jpeg">
+                    <img src="assets/icons/public.jpeg" alt="Public domain image">
                     <div class="name">
                         <div>
                             <h3>Public Domain Images</h3>
@@ -119,70 +119,70 @@
                     </div>
                 </div>
                 <div>
-                    <img src="assets/icons/high.jpeg">
+                    <img src="assets/icons/high.jpeg" alt="High resolution image">
                     <div class="name">
                         <h3>High Resolution Images</h3>
                     </div>
                     <span class="grid-desc">308,300+ Images</span>
                 </div>
                 <div>
-                    <img src="assets/icons/creative.jpeg">
+                    <img src="assets/icons/creative.jpeg" alt="Creative image">
                     <div class="name">
                         <h3>Creative Images</h3>
                     </div>
                     <span class="grid-desc">308,600+ Images</span>
                 </div>
                 <div>
-                    <img src="assets/icons/4k.jpeg">
+                    <img src="assets/icons/4k.jpeg" alt="4k image">
                     <div class="name">
                         <h3>4K Images</h3>
                     </div>
                     <span class="grid-desc">309,100+ Images</span>
                 </div>
                 <div>
-                    <img src="assets/icons/pngimg.jpeg">
+                    <img src="assets/icons/pngimg.jpeg" alt="Png image">
                     <div class="name">
                         <h3>PNG Images</h3>
                     </div>
                     <span class="grid-desc">309,000+ Images</span>
                 </div>
                 <div>
-                    <img src="assets/icons/copyright.jpeg">
+                    <img src="assets/icons/copyright.jpeg" alt="Non-copyright image">
                     <div class="name">
                         <h3>Non Copyrighted Images</h3>
                     </div>
                     <span class="grid-desc">308,800+ Images</span>
                 </div>
                 <div>
-                    <img src="assets/icons/cover.jpeg">
+                    <img src="assets/icons/cover.jpeg" alt="Cover photos">
                     <div class="name">
                         <h3>Cover Photos & Images</h3>
                     </div>
                     <span class="grid-desc">309,200+ Images</span>
                 </div>
                 <div>
-                    <img src="assets/icons/hdr.jpeg">
+                    <img src="assets/icons/hdr.jpeg" alt="Hdr images">
                     <div class="name">
                         <h3>HDR Photos & Images</h3>
                     </div>
                     <span class="grid-desc">1,600+ Images</span>
                 </div>
                 <div>
-                    <img src="assets/icons/hostoric.jpeg">
+                    <img src="assets/icons/hostoric.jpeg" alt="historic images">
                     <div class="name">
                         <h3>Historical Photos & Images</h3>
                     </div>
                     <span class="grid-desc">10,000+ Images</span>
                 </div>
                 <div>
-                    <img src="assets/icons/visualimg.jpeg">
+                    <img src="assets/icons/visualimg.jpeg" alt="visual pictures">
                     <div class="name">
                         <h3>Visual Pictures</h3>
                     </div>
                     <span class="grid-desc">1,500+ Images</span>
                 </div>
                 <div>
-                    <img src="assets/icons/blog.jpeg">
+                    <img src="assets/icons/blog.jpeg" alt="blog images">
                     <div class="name">
                         <h3>Blogging Pictures</h3>
                     </div>
@@ -195,91 +195,91 @@
         </div>
         <div class="grid-content">
             <div>
-                <img src="assets/icons/flower.jpeg">
+                <img src="assets/icons/flower.jpeg" alt="flower images">
                 <div class="name">
                     <h3>Flower Images</h3>
                 </div>
                 <span class="grid-desc">10,000+ Images</span>
             </div>
             <div>
-                <img src="assets/icons/fall.jpeg">
+                <img src="assets/icons/fall.jpeg" alt="fall image">
                 <div class="name">
                     <h3>Fall Images & Pictures</h3>
                 </div>
                 <span class="grid-desc">10,000+ Images</span>
             </div>
             <div>
-                <img src="assets/icons/rose.jpg">
+                <img src="assets/icons/rose.jpg" alt="rose images">
                 <div class="name">
                     <h3>Rose Images</h3>
                 </div>
                 <span class="grid-desc">10,000+ Images</span>
             </div>
             <div>
-                <img src="assets/icons/beach.jpeg">
+                <img src="assets/icons/beach.jpeg" alt="beach images">
                 <div class="name">
                     <h3>Beach Images & Pictures</h3>
                 </div>
                 <span class="grid-desc">10,000+ Images</span>
             </div>
             <div>
-                <img src="assets/icons/spring.jpeg">
+                <img src="assets/icons/spring.jpeg" alt="spring images">
                 <div class="name">
                     <h3>Spring Images & Pictures</h3>
                 </div>
                 <span class="grid-desc">10,000+ Images</span>
             </div>
             <div>
-                <img src="assets/icons/satellite.jpeg">
+                <img src="assets/icons/satellite.jpeg" alt="satellite images">
                 <div class="name">
                     <h3>Satellite Images</h3>
                 </div>
                 <span class="grid-desc">10,000+ Images</span>
             </div>
             <div>
-                <img src="assets/icons/stari.jpeg">
+                <img src="assets/icons/stari.jpeg" alt="star images">
                 <div class="name">
                     <h3>Star Images</h3>
                 </div>
                 <span class="grid-desc">7,600+ Images</span>
             </div>
             <div>
-                <img src="assets/icons/earth.jpeg">
+                <img src="assets/icons/earth.jpeg" alt="earth image">
                 <div class="name">
                     <h3>Earth Images & Pictures</h3>
                 </div>
                 <span class="grid-desc">8,300+ Images</span>
             </div>
             <div>
-                <img src="assets/icons/rainbow.jpeg">
+                <img src="assets/icons/rainbow.jpeg" alt="Rainbow image">
                 <div class="name">
                     <h3>Rainbow Images & Pictures</h3>
                 </div>
                 <span class="grid-desc">6,200+ Images</span>
             </div>
             <div>
-                <img src="assets/icons/summer.jpeg">
+                <img src="assets/icons/summer.jpeg" alt="Summer image">
                 <div class="name">
                     <h3>Summer Images & Pictures</h3>
                 </div>
                 <span class="grid-desc">10,000+ Images</span>
             </div>
             <div>
-                <img src="assets/icons/tree.jpeg">
+                <img src="assets/icons/tree.jpeg" alt="Tree image">
                 <div class="name">
                     <h3>Tree Images & Pictures</h3>
                 </div>
                 <span class="grid-desc">10,000+ Images</span>
             </div>
             <div>
-                <img src="assets/icons/winter.jpeg">
+                <img src="assets/icons/winter.jpeg" alt="Winter image">
                 <div class="name">
                     <h3>Winter Images & Pictures</h3>
                 </div>
                 <span class="grid-desc">10,000+ Images</span>
             </div>
             <div>
-                <img src="assets/icons/moon.jpeg">
+                <img src="assets/icons/moon.jpeg" alt="Moon image">
                 <div class="name">
                     <h3>Moon Images & Pictures</h3>
                 </div>
