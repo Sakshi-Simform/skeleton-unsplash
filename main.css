@@ -75,6 +75,7 @@
     grid-auto-flow: dense;
     padding-left: 13em;
     padding-right: 10em;
+    cursor: pointer;
 }
 
 #grid-container {
