@@ -9,7 +9,7 @@
 #main {
     height: calc(100vh - 4.5rem);
     overflow: auto;
-    margin-left: 0.625em;
+    margin: auto;
 }
 
 .main-content {
@@ -105,8 +105,9 @@
 }
 
 .grid-content img {
-    width: 90%;
-    height: 60%;
+    aspect-ratio: 8192/5464;
+    max-width:15rem ;
+    min-height: 10rem;
     object-fit: cover;
     border-radius: 10px;
     border-style: none;
@@ -204,5 +205,9 @@
     #grid-container{
         margin-top:-3.5em;
     }
+
+    .grid-content img{
+        gap: 1em;
+    } 
 
 }
